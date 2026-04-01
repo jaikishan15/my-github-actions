@@ -7,7 +7,7 @@ app.use(express.json());
 
 // routes
 app.get("/", (req, res) => {
-  res.send("🚀 Server is running successfully");
+  res.send("🚀 Server is running successfully and a new change is added");
 });
 
 app.get("/health", (req, res) => {
