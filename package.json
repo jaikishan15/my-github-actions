@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "start": "node index.js",
-  "test": "node -e \"console.log('Tests passed')\""
+    "start": "node index.js",
+    "test": "node -e \"console.log('Tests passed')\""
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^5.0.6"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
